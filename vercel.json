@@ -1,0 +1,6 @@
+{
+    "version": 2,
+    "name": "SocketForSocialMedia",
+    "builds": [{ "src": "Dashboard.html", "use": "@vercel/node" }],
+    "routes": [{ "src": "/(.*)", "dest": "/App.js" }]
+  }
